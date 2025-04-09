@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu - Bean There Café</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Bean There Café" height="40" class="rounded-circle">
+                <h1>BEAN THERE CAFE</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header menu-header">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="display-3 fw-bold text-black">Our Menu</h1>
+                    <p class="lead text-black">Handcrafted beverages made with care</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Tabs -->
+    <section class="py-5">
+        <div class="container">
+            <ul class="nav nav-tabs justify-content-center mb-5" id="menuTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="coffee-tab" data-bs-toggle="tab" data-bs-target="#coffee" type="button" role="tab">Coffee</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tea-tab" data-bs-toggle="tab" data-bs-target="#tea" type="button" role="tab">Tea</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="food-tab" data-bs-toggle="tab" data-bs-target="#food" type="button" role="tab">Food</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="seasonal-tab" data-bs-toggle="tab" data-bs-target="#seasonal" type="button" role="tab">Seasonal</button>
+                </li>
+            </ul>
+            
+            <div class="tab-content" id="menuTabsContent">
+                <!-- Coffee Tab -->
+                <div class="tab-pane fade show active" id="coffee" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Espresso</h3>
+                                        <span class="price">₱35.50</span>
+                                    </div>
+                                    <p class="card-text">A concentrated coffee beverage brewed by forcing hot water under pressure through finely ground coffee.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Americano</h3>
+                                        <span class="price">₱47.00</span>
+                                    </div>
+                                    <p class="card-text">Espresso shots topped with hot water to produce a light layer of crema.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Cappuccino</h3>
+                                        <span class="price">₱49.75</span>
+                                    </div>
+                                    <p class="card-text">Espresso with steamed milk and a silky layer of foam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Latte</h3>
+                                        <span class="price">₱59.00</span>
+                                    </div>
+                                    <p class="card-text">Espresso with steamed milk and a light layer of foam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Mocha</h3>
+                                        <span class="price">₱59.50</span>
+                                    </div>
+                                    <p class="card-text">Espresso with steamed milk, chocolate syrup, and whipped cream.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Cold Brew</h3>
+                                        <span class="price">₱49.50</span>
+                                    </div>
+                                    <p class="card-text">Slow-steeped for 18 hours for a smooth, less acidic flavor.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tea Tab -->
+                <div class="tab-pane fade" id="tea" role="tabpanel">
+                    <div class="tab-pane fade show active" id="coffee" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Whispering Jasmine</h3>
+                                        <span class="price">₱38.50</span>
+                                    </div>
+                                    <p class="card-text">A delicate, fragrant blend that brings the calming whispers of jasmine blossoms. With each sip, feel the serenity of a garden at dusk, where every flower’s sigh is carried by the breeze.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Autumn Ember</h3>
+                                        <span class="price">₱49.00</span>
+                                    </div>
+                                    <p class="card-text">A warm, spicy concoction with notes of cinnamon, cloves, and a hint of orange zest. Perfect for cozy moments by the fire, this tea mirrors the golden hues of fall leaves as they dance in the autumn wind.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Moonlit Orchard</h3>
+                                        <span class="price">₱49.75</span>
+                                    </div>
+                                    <p class="card-text">A fruity, floral blend that feels like a midnight stroll through an orchard under a full moon. Lush apple and pear notes intertwine with a soft floral undertone, wrapping you in the cool embrace of a starlit night.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Lavender Dream</h3>
+                                        <span class="price">₱50.00</span>
+                                    </div>
+                                    <p class="card-text">A soothing infusion of lavender, chamomile, and a hint of honey. Like a gentle lullaby, this tea helps you unwind after a long day, transporting you to a peaceful meadow where dreams bloom.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Mystic Chai</h3>
+                                        <span class="price">₱50.50</span>
+                                    </div>
+                                    <p class="card-text">A bold, exotic blend of spiced black tea with cinnamon, cardamom, and a touch of vanilla. A magical brew that wraps you in warmth, filling your senses with the mystery and allure of faraway lands.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card menu-item h-100 border-0 shadow-sm">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <h3 class="card-title">Celestial Green</h3>
+                                        <span class="price">₱49.50</span>
+                                    </div>
+                                    <p class="card-text">An ethereal green tea, light and uplifting with subtle hints of mint and citrus. Sipping it feels like catching the first rays of sunlight after a quiet night—fresh, bright, and full of possibility.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                <!-- Food Tab -->
+                <div class="tab-pane fade" id="food" role="tabpanel">
+                    <div class="tab-pane fade show active" id="coffee" role="tabpanel">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Sourdough Avocado Toast</h3>
+                                            <span class="price">₱38.50</span>
+                                        </div>
+                                        <p class="card-text">A thick slice of golden-brown sourdough, toasted to perfection, topped with creamy mashed avocado, a sprinkle of sea salt, and a dash of chili flakes for a little kick. Paired with a drizzle of olive oil, it’s the ultimate comfort food that feels like a warm hug.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Cinnamon Swirl Bun</h3>
+                                            <span class="price">₱49.00</span>
+                                        </div>
+                                        <p class="card-text">A soft, pillowy bun filled with a swirl of cinnamon sugar and baked to golden perfection. The aroma alone will have you hooked, while the sweet, buttery interior brings the perfect balance of warmth and indulgence.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Caprese Croissant</h3>
+                                            <span class="price">₱49.75</span>
+                                        </div>
+                                        <p class="card-text">A buttery, flaky croissant layered with fresh mozzarella, ripe tomatoes, and basil, then drizzled with balsamic glaze. A savory twist on a classic croissant, this treat offers a refreshing burst of flavor with every bite.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Bacon and Egg Breakfast Muffin</h3>
+                                            <span class="price">₱59.00</span>
+                                        </div>
+                                        <p class="card-text">A toasted English muffin, piled high with crispy bacon, a perfectly fried egg, and a slice of cheddar cheese, all brought together with a touch of tangy mayo. It’s the morning comfort food you’ve been dreaming of—quick, satisfying, and delicious.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Lemon Poppy Seed Cake</h3>
+                                            <span class="price">₱59.50</span>
+                                        </div>
+                                        <p class="card-text">A light, zesty cake with a moist crumb, perfectly complemented by the tang of lemon and the crunch of poppy seeds. A fresh, vibrant treat that’s like a little slice of sunshine in your day.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Vegetarian Quiche</h3>
+                                            <span class="price">₱49.50</span>
+                                        </div>
+                                        <p class="card-text">A savory, buttery pastry crust filled with a rich and creamy mixture of eggs, cheese, and seasonal vegetables like spinach, mushrooms, and bell peppers. This comforting dish is both hearty and wholesome, perfect for a mid-afternoon pick-me-up.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Seasonal Tab -->
+                <div class="tab-pane fade" id="seasonal" role="tabpanel">
+                    <div class="tab-pane fade show active" id="coffee" role="tabpanel">
+                        <div class="row g-4">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Lemon Lavender Shortbread Cookies</h3>
+                                            <span class="price">₱38.50</span>
+                                        </div>
+                                        <p class="card-text">Light, buttery shortbread cookies infused with bright lemon zest and a hint of floral lavender. These delicate treats are the perfect balance of sweet and refreshing, evoking the first blooms of spring.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Pea & Mint Soup</h3>
+                                            <span class="price">₱49.00</span>
+                                        </div>
+                                        <p class="card-text">A vibrant, fresh soup made with sweet green peas and a touch of mint, blended to silky perfection. Served warm or chilled, it’s like a breath of fresh air in a bowl, celebrating the new growth of the season.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Strawberry Rhubarb Tart</h3>
+                                            <span class="price">₱49.75</span>
+                                        </div>
+                                        <p class="card-text">A crisp, flaky pastry filled with a tangy-sweet combination of strawberries and rhubarb. Topped with a dusting of powdered sugar, this tart is a nod to spring’s bright, tart fruit and the warmth of sunny afternoons.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Avocado & Spring Greens Toast</h3>
+                                            <span class="price">₱50.00</span>
+                                        </div>
+                                        <p class="card-text">A slice of sourdough topped with creamy mashed avocado, mixed spring greens, and a drizzle of olive oil, finished with a sprinkle of toasted sunflower seeds. Light, nourishing, and the perfect way to welcome warmer days.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Elderflower Lemonade</h3>
+                                            <span class="price">₱50.50</span>
+                                        </div>
+                                        <p class="card-text">A floral, refreshing lemonade made with elderflower syrup, lemon, and a touch of sparkling water. It’s an effervescent drink that perfectly captures the light and breezy days of early spring.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card menu-item h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="card-title">Watermelon Mint Salad</h3>
+                                            <span class="price">₱49.50</span>
+                                        </div>
+                                        <p class="card-text">A chilled salad bursting with juicy watermelon cubes, fresh mint leaves, and a drizzle of lime. It’s the ultimate thirst-quenching, refreshing dish perfect for hot summer days.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coffee Beans Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2>Our Coffee Beans</h2>
+                    <p class="lead">Premium single-origin and blended options</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 text-center h-100">
+                        <img src="images/bean1.jpg" class="card-img-top rounded-circle w-50 mx-auto" alt="Ethiopian Yirgacheffe">
+                        <div class="card-body">
+                            <h3>Ethiopian Yirgacheffe</h3>
+                            <p class="text-muted">Light Roast</p>
+                            <p>Floral and tea-like with notes of lemon and blueberry. Grown at high altitudes in Ethiopia.</p>
+                            <p class="price">₱180.00 / 12oz</p>
+                            <button class="btn btn-outline-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 text-center h-100">
+                        <img src="images/bean2.jpg" class="card-img-top rounded-circle w-50 mx-auto" alt="Colombian Supremo">
+                        <div class="card-body">
+                            <h3>Colombian Supremo</h3>
+                            <p class="text-muted">Medium Roast</p>
+                            <p>Well-balanced with notes of caramel and nuts. Our most popular single-origin.</p>
+                            <p class="price">₱160.00 / 12oz</p>
+                            <button class="btn btn-outline-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 text-center h-100">
+                        <img src="images/bean3.jpg" class="card-img-top rounded-circle w-50 mx-auto" alt="Dark Sumatra">
+                        <div class="card-body">
+                            <h3>Dark Sumatra</h3>
+                            <p class="text-muted">Dark Roast</p>
+                            <p>Full-bodied with earthy tones and a syrupy sweetness. Perfect for espresso.</p>
+                            <p class="price">₱170.00 / 12oz</p>
+                            <button class="btn btn-outline-primary">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Bean There Café</h5>
+                    <p>Your neighborhood coffee shop dedicated to quality, community, and sustainability.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="about.html" class="text-white">About Us</a></li>
+                        <li><a href="menu.html" class="text-white">Menu</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                    <div class="mt-3">
+                        <p>Subscribe to our newsletter</p>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Your email">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Bean There Café. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+     <!-- Scroll to Top Button -->
+     <button id="scrollToTopBtn" class="btn btn-primary scroll-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
