@@ -227,3 +227,50 @@ footer a:hover {
 .scroll-to-top:hover {
     transform: translateY(-3px);
 }
+
+/* ------------------------------------ */
+/* 12-inch MacBook (2304×1440) Optimizations */
+/* ------------------------------------ */
+
+/* 1. Viewport Scaling Fix */
+@media screen and (width: 2304px) and (height: 1440px) {
+    html {
+      font-size: 18px; /* Slightly larger base font for ultra-high-res screens */
+    }
+  
+    /* 2. Header Height Adjustments */
+    .hero-section {
+      height: 85vh; /* Slightly taller to fill screen */
+    }
+    .page-header {
+      height: 55vh;
+    }
+  
+    /* 3. Navbar Spacing */
+    .navbar {
+      padding: 0.8rem 5%; /* Wider horizontal padding */
+    }
+  
+    /* 4. Prevent Ultra-Wide Content Stretching */
+    .container {
+      max-width: 1800px; /* Caps width for readability */
+    }
+  
+    /* 5. Image Sharpness (for 1:1 pixel ratio) */
+    img {
+      image-rendering: -webkit-optimize-contrast; /* Crisper rendering */
+    }
+  }
+  
+  /* 6. General High-Resolution Tweaks (Applies to all MacBooks) */
+  @media 
+  (min-resolution: 1dppx) and (min-width: 2000px) {
+    /* Subtle scaling for text/icons */
+    .navbar-brand h1 {
+      font-size: 1.6rem;
+    }
+    .icon-box {
+      width: 90px;
+      height: 90px;
+    }
+  }
